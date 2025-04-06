@@ -1,0 +1,32 @@
+# Ignore Visual Studio temporary files, build results, and more
+.vs/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.log
+*.pdb
+*.obj
+*.exe
+*.dll
+*.bak
+*.swp
+*.tmp
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Test results
+TestResults/
+*.trx
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Rider
+.idea/
