@@ -6,8 +6,14 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.UI", "InventoryManagement.UI\InventoryManagement.UI.csproj", "{7BC7B970-F279-42B7-A066-2242E93C229C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Data", "InventoryManagement.Data\InventoryManagement.Data.csproj", "{6BC1FDD5-4ABA-4DF3-A004-7B2C3B0570F8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{920F7FD8-176E-4CE6-9BEC-EC43D8A86F34} = {920F7FD8-176E-4CE6-9BEC-EC43D8A86F34}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.ViewModels", "InventoryManagement.ViewModels\InventoryManagement.ViewModels.csproj", "{317E478F-FF4D-44CD-AFA9-EDFC55073D74}"
+	ProjectSection(ProjectDependencies) = postProject
+		{920F7FD8-176E-4CE6-9BEC-EC43D8A86F34} = {920F7FD8-176E-4CE6-9BEC-EC43D8A86F34}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryManagement.Models", "InventoryManagement.Models\InventoryManagement.Models.csproj", "{920F7FD8-176E-4CE6-9BEC-EC43D8A86F34}"
 EndProject

@@ -1,4 +1,4 @@
-﻿namespace InventoryManagement.Data;
+﻿namespace InventoryManagement.Models;
 
 public class InventoryItem
 {

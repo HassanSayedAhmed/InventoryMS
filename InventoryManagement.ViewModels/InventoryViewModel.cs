@@ -1,4 +1,5 @@
 ﻿using InventoryManagement.Data;
+using InventoryManagement.Models;
 using Microsoft.IdentityModel.Tokens;
 using System.Collections.ObjectModel;
 using System.ComponentModel;

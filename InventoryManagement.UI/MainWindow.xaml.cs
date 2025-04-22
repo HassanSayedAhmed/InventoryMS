@@ -1,4 +1,5 @@
 ﻿using InventoryManagement.Data;
+using InventoryManagement.Models;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
